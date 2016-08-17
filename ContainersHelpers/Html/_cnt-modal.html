@@ -1,0 +1,61 @@
+﻿<div id="cnt-modal-type" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Compose your Container Type</h4>
+            </div>
+            <div class="modal-body">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--<fieldset>-->
+                        <h4 class="text-primary">Size</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Length</label>
+                                <select id="select-length" class="form-control"></select>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Height</label>
+                                <select id="select-height" class="form-control"></select>
+                            </div>
+                        </div>
+                        <!--</fieldset>-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--<fieldset>-->
+                        <h4 class="text-primary">Type categories</h4>
+                        <div id="typecat-RadioGroup" class="btn-group" data-toggle="buttons">
+                        </div>
+                        <!--</fieldset>-->
+                    </div>
+                </div>
+                <div class="row" style="min-height: 306px;">
+                    <div class="col-md-12">
+                        <!--<fieldset>-->
+                        <h4 class="text-primary">Type</h4>
+                        <div id="type-RadioGroup">
+                        </div>
+                        <!--</fieldset>-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--<fieldset>-->
+                        <h3 class="text-primary">Selected Container Type</h3>
+                        <div id="cnt-result" class="col-md-3 h1 text-center"></div>
+                        <div id="cnt-result-label" class="col-md-9 h3"></div>
+                        <!--</fieldset>-->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="cnt-modal-select-btn">Select</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

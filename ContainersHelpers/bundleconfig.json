@@ -1,0 +1,20 @@
+[
+  {
+    "outputFileName": "Html/_cnt-modal.min.html",
+    "inputFiles": [
+      "Html/_cnt-modal.html"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/app.min.js",
+    "inputFiles": [
+      "Scripts/app.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/containerhelpers.min.js",
+    "inputFiles": [
+      "Scripts/containerhelpers.js"
+    ]
+  }
+]
